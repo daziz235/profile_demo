@@ -28,7 +28,7 @@ pg = st.navigation(
 )
 
 # --- SHARED ON ALL PAGES ---
-st.logo("/Users/danishaziz/Desktop/danish/streamlit_multipage_app/assets/logo _infinity.jpg", size= "large")
+st.logo("assets/logo _infinity.jpg", size= "large")
 st.sidebar.text("Made with ❤️ by Danish")
 
 # ---RUN NAVIGATION ---
