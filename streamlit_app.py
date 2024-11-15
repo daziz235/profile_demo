@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    page = "/Users/danishaziz/Desktop/danish/streamlit_multipage_app/views/about_me.py",
+    page = "/views/about_me.py",
     title = "About Me",
     icon = ":material/account_circle:",
     default=True,
@@ -11,7 +11,7 @@ about_page = st.Page(
 
 )
 project_1_page = st.Page(
-    page = "/Users/danishaziz/Desktop/danish/streamlit_multipage_app/views/chatbot.py",
+    page = "/views/chatbot.py",
     title="Chat Bot",
     icon = ":material/smart_toy:",
 
