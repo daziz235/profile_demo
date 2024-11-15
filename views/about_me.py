@@ -16,7 +16,7 @@ def show_contact_form():
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
-    st.image("/Users/danishaziz/Desktop/danish/streamlit_multipage_app/assets/dp.jpeg", width = 180)
+    st.image("assets/dp.jpeg", width = 180)
 with col2:
     st.title("Danish Aziz", anchor=False)
     st.write("B.Tech. IIT Bombay ' 2024")
